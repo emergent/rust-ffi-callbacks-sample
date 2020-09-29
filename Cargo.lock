@@ -11,4 +11,11 @@ name = "ccallbacks"
 version = "0.1.0"
 dependencies = [
  "cc",
+ "libc",
 ]
+
+[[package]]
+name = "libc"
+version = "0.2.77"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f2f96b10ec2560088a8e76961b00d47107b3a625fecb76dedb29ee7ccbf98235"
